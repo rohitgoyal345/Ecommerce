@@ -1,0 +1,44 @@
+
+$black-color:black;
+$white-color:white;
+$Blue-color:#0068c8;
+
+// navbar.js sec
+
+header{
+    background-color:$white-color;
+    border-bottom:1px solid rgba(235,235,235,1);
+    .navbar-logo{
+        max-width:200px;    
+        max-height:50px;
+    }
+    .navbar-nav {
+        margin: 0 45px;
+        .nav-link {
+            font-size: 17px;
+            color:$black-color;
+            cursor:pointer;
+            font-weight: 500;
+            font-family: 'Roboto', sans-serif;
+        }
+        #navbarScrollingDropdown{
+            color:$black-color;
+        }
+    }
+    #input-search-bar{
+        border-color:rgba(235,235,235,1);
+        padding-right:45px;
+        outline: none;
+        box-shadow: none !important;
+    }
+    .input-span{
+        position: absolute;
+        right: 145px;
+        top: 27px;
+        i{ 
+          font-size:17px;
+          color:$Blue-color;
+        }
+    }
+
+}

@@ -1,0 +1,5 @@
+/* Header&footer scss link */
+@import './Assets/Styles/Header&footer.scss';
+
+/* main scss link */
+@import './Assets/Styles/main.scss';
