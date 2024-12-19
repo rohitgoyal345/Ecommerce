@@ -1,6 +1,9 @@
 
 import './App.css';
 
+// bootstrap import link
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 // Components
 import Navbar from "./components/Navbar.js";
 

@@ -27,8 +27,6 @@ function NavbarMain() {
               <NavDropdown.Item as={NavLink} to="/" > Laptops </NavDropdown.Item>
               <NavDropdown.Item as={NavLink} to="/" > Earbuds </NavDropdown.Item>
               <NavDropdown.Item as={NavLink} to="/" > Speakers </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item as={NavLink} to="/" > Lcd T.V</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={NavLink} to="/" > Blog </Nav.Link>
             <Nav.Link as={NavLink} to="/" > Contact Us </Nav.Link>
