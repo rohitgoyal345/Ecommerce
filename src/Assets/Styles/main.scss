@@ -194,11 +194,21 @@ $green_color:#388E3C;
 
 //products.js style
 
+.Products_title{
+  margin-bottom:30px;
+  h4{
+    font-size:35px;
+    font-weight:600;
+    font-family:"Plus Jakarta Sans", sans-serif;
+  }
+}
+
 .nav-tabs{
     border-bottom: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom:50px !important;
     .nav-link{
       border: none !important;
       background: #1a4ce9;
@@ -208,8 +218,6 @@ $green_color:#388E3C;
       &.active{
         background: red !important;
         color: white !important;
-        padding: 10px 30px;
-        border-radius: 50px;
       }
     }
 }

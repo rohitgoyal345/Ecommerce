@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { NavLink } from 'react-router-dom';
 import Form from 'react-bootstrap/Form';
+import { FaShoppingCart } from 'react-icons/fa';
 
 // Navbar logo
 import Image_Logo from '../Assets/Images/Logo.png';
@@ -42,6 +43,12 @@ function NavbarMain() {
             />
             <span className='input-span'><i class="bi bi-search"></i></span>
           </Form>
+          <Nav>
+            <Nav.Link href="/cart">
+              <FaShoppingCart size={20} />
+              <span className="ms-1">Cart</span>
+            </Nav.Link>
+          </Nav>
         </Navbar.Collapse>
           </Container>
         </Navbar>

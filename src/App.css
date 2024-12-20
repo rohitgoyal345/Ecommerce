@@ -3,3 +3,6 @@
 
 /* main scss link */
 @import './Assets/Styles/main.scss';
+
+/* collection scss link */
+@import './Assets/Styles/Collection.scss';

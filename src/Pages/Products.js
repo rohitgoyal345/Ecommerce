@@ -12,7 +12,7 @@ function Products() {
     <div className="banner-about-main">
       <Container>
         <Row>
-          <Col lg={6}>
+          <Col lg={12}>
             <div className="Products_title">
               <h4>Trending Products</h4>
             </div>
@@ -39,7 +39,7 @@ function Products() {
               </Nav>
 
              
-              <Tab eventKey="first" title="Tab 1">
+              <Tab eventKey="first" title="All Products">
                 <AllProducts /> 
               </Tab>
               <Tab eventKey="second" title="SmartPhones">

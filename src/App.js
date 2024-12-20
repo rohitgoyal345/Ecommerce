@@ -11,6 +11,8 @@ import Navbar from "./components/Navbar.js";
 import Banner from "./Pages/Banner.js";
 import Banner_About from './Pages/Banner_About.js';
 import Products from './Pages/Products.js';
+import Collection from './Pages/Collection.js';
+import Reviews from './Pages/Reviews.js';
 
 import { BrowserRouter as Router, Route, Routes, Outlet } from 'react-router-dom';
 
@@ -27,6 +29,8 @@ function App() {
             <Route excat path="/" element={<Banner />} />
             <Route path='/banner_about' element={<Banner_About/>} />
             <Route path='/product_collection' element={<Products/>} />
+            <Route path='/collection' element={<Collection/>} />
+            <Route path='/review' element={<Reviews/>} />
           </Routes>
         </main>
       </div>

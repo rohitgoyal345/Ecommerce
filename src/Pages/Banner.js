@@ -7,6 +7,8 @@ import banner_img3 from "../Assets/Images/banner3.jpg";
 //pages
 import Banner_About from "./Banner_About";
 import Products from './Products';
+import Collection from './Collection';
+import Reviews from './Reviews';
 
 function Banner() {
   return ( 
@@ -34,6 +36,8 @@ function Banner() {
     </ Container>
     <Banner_About />
     <Products />
+    <Collection />
+    <Reviews />
     </div>
   );
 }

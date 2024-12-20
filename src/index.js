@@ -5,6 +5,7 @@ import App from './App';
 
 import './Assets/Styles/Header&footer.scss';
 import './Assets/Styles/main.scss';
+import './Assets/Styles/Collection.scss';
 
 // bootstrap import link
 import 'bootstrap/dist/css/bootstrap.min.css';

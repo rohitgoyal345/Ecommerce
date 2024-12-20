@@ -1,0 +1,94 @@
+.collection-heading {
+  background-image: url(../Images/add-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 55px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+.collection-heading h4 {
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 9px 0px;
+  text-align: left;
+}
+.collection-heading h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: black;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
+  line-height: 50px;
+  text-align: left;
+}
+.collection-heading button {
+  background-color: black;
+  border: none;
+  outline: none;
+  padding: 10px 40px;
+  border-radius: 50px;
+  margin: 15px 0;
+  color: white;
+}
+
+.other-collection {
+  background-image: url(../Images/collection-bg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 40px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  height: 450px;
+}
+.other-collection h4 {
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #dd2831;
+  color: white;
+  width: 41%;
+  text-transform: uppercase;
+  padding: 6px 10px;
+}
+.other-collection h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
+  line-height: 50px;
+  text-align: left;
+}
+.other-collection p {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 9px 0px;
+  text-align: left;
+}
+
+.second-other-collection {
+  background-image: url(../Images/collection-bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.third-other-collection {
+  background-image: url(../Images/collection-bg3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.third-other-collection h2 {
+  color: black;
+}
+.third-other-collection p {
+  color: black;
+}/*# sourceMappingURL=Collection.css.map */
