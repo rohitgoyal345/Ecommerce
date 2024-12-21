@@ -6,3 +6,6 @@
 
 /* collection scss link */
 @import './Assets/Styles/Collection.scss';
+
+/* reviews scss link */
+@import './Assets//Styles/reviews.scss';

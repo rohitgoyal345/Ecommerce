@@ -1,0 +1,54 @@
+
+$yellow-color:#ffdc00;
+
+.custom-table th, td {
+    scrollbar-width:none;
+    white-space: nowrap;
+}
+
+.Card_review{
+    height:447px;
+    .card-title{
+        h4{
+
+        }
+    }
+    #room-card-body{
+        height:470px;
+        overflow-x:auto;
+        overflow-y: auto;
+        scrollbar-width:none !important;
+        .table-responsive{
+            scrollbar-width:none;
+            tbody{
+                scrollbar-width:none;
+                tr{
+                    td{
+                        .table-product-main{
+                            display:flex;
+                            align-items:center;
+                            .table-img{
+                                img{
+                                  width:45px;
+                                  height:50px;
+                                  margin-right:8px;
+                                }
+                            }
+                            .table-title{
+                                h5{
+                                  font-size:12px;
+                                }
+                            }
+                        }
+                        span{
+                            i{
+                                color:$yellow-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

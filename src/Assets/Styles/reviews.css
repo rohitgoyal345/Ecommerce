@@ -1,0 +1,35 @@
+.custom-table th, td {
+  scrollbar-width: none;
+  white-space: nowrap;
+}
+
+.Card_review {
+  height: 447px;
+}
+.Card_review #room-card-body {
+  height: 470px;
+  overflow-x: auto;
+  overflow-y: auto;
+  scrollbar-width: none !important;
+}
+.Card_review #room-card-body .table-responsive {
+  scrollbar-width: none;
+}
+.Card_review #room-card-body .table-responsive tbody {
+  scrollbar-width: none;
+}
+.Card_review #room-card-body .table-responsive tbody tr td .table-product-main {
+  display: flex;
+  align-items: center;
+}
+.Card_review #room-card-body .table-responsive tbody tr td .table-product-main .table-img img {
+  width: 45px;
+  height: 50px;
+  margin-right: 8px;
+}
+.Card_review #room-card-body .table-responsive tbody tr td .table-product-main .table-title h5 {
+  font-size: 12px;
+}
+.Card_review #room-card-body .table-responsive tbody tr td span i {
+  color: #ffdc00;
+}/*# sourceMappingURL=reviews.css.map */
